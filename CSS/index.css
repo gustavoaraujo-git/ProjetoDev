@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+
+.grid{
+    background-color: aqua;
+    margin: 70px;
+    border-radius: 25px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
