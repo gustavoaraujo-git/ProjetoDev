@@ -4,7 +4,7 @@ body{
 }
 
 .grid{
-    /* background-color: aqua; */
+    background-color: aqua;
     margin: 70px;
     border-radius: 25px;
 }
@@ -12,19 +12,37 @@ body{
 .cabecalho{
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+.titulo{
+    text-decoration: none;
+    color: blueviolet;
 }
 
 .nav-ul{
     display: flex;
     flex-direction: row;
+
+    margin: 0 320px;
 }
 
 .nav-ul > a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
     padding-right: 5px;
     text-decoration: none;
     list-style: none;
-    color: blueviolet;
+    color: #000;
 }
 
-a
+.get{
+    background-color: red;
+    border-radius: 18px;
+    color: #fff;
+    padding: 9px 9px;
+}
