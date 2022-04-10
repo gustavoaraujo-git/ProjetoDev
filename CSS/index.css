@@ -19,6 +19,8 @@ body{
 .titulo{
     text-decoration: none;
     color: blueviolet;
+    font-size: 1.0em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav-ul{
@@ -32,12 +34,14 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 
     
     padding-right: 5px;
     text-decoration: none;
     list-style: none;
     color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .get{
