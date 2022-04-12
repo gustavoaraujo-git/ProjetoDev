@@ -56,6 +56,15 @@ body{
     margin-left: 25px;
 }
 
+.get:hover{
+
+}
+
 .links{
     padding: 0 30px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
 }
