@@ -20,14 +20,15 @@ body{
     text-decoration: none;
     color: blueviolet;
     font-size: 1.0em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;}
 
 .nav-ul{
     display: flex;
     flex-direction: row;
 
-    margin: 0 320px;
+    margin: 0 100px;
+    padding-left: 360px;
 }
 
 .nav-ul > a{
@@ -41,12 +42,20 @@ body{
     text-decoration: none;
     list-style: none;
     color: #000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
 }
+
 
 .get{
     background-color: red;
-    border-radius: 18px;
+    border-radius: 10px;
     color: #fff;
-    padding: 9px 9px;
+    padding: 8px 13px 8px 8px;
+    margin-left: 25px;
+}
+
+.links{
+    padding: 0 30px;
 }
