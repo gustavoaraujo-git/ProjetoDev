@@ -69,6 +69,14 @@ body{
     flex-direction: row;
 }
 
+.conteudo{
+    margin: 0 70px;
+}
+
+.esclarecimento{
+    margin: 0 120px 0 0;
+}
+
 img{
     height: 20%;
     width: 20%;
