@@ -3,7 +3,18 @@ body{
     background-color: #fff;
 }
 
-.grid{
+.cabecalho > .grid-cabecalho{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+.geral{
     margin: 70px;
     border-radius: 25px;
     box-shadow: 0 0 1em darkgray;}
@@ -12,7 +23,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px 70px;
+    padding: 25px 50px;
 }
 
 .titulo{
@@ -100,4 +111,8 @@ button{
     font-size: 0.8em;
     margin-bottom: 60px;
     border: crimson solid;
+}
+
+@media(max-width: 901px){
+
 }
