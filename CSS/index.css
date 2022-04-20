@@ -7,9 +7,7 @@ body{
     display: flex;
     flex-direction: row;
 
-    max-width: 1500px;
-    width: 100%;
-    padding: 0 10px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -23,6 +21,11 @@ body{
     flex-direction: row;
     align-items: center;
     padding: 30px 40px;
+}
+
+.grid-cabecalho{
+    display: flex;
+    flex-direction: row;
 }
 
 .titulo{
