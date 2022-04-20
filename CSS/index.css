@@ -11,6 +11,11 @@ body{
     margin: 0 auto;
 }
 
+.inicio2{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
 .geral{
     margin: 70px;
     border-radius: 25px;
