@@ -107,10 +107,14 @@ body{
     margin: 0 250px 0 0;
 }
 
-img{
+.img1{
     margin-left: 50px;
     height: 280px;
     width: 280px;
+}
+
+.img2{
+    display: none;
 }
 
 button{
